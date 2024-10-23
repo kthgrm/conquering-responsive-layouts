@@ -10,27 +10,28 @@
     You may modify the HTML if needed
 
 # CODE TO FIX
-    ```css
-    * {
-    box-sizing: border-box;
-    }
+```
+css
+* {
+box-sizing: border-box;
+}
 
-    body {
-    margin: 0;
-    font-family: sans-serif;
-    }
+body {
+margin: 0;
+font-family: sans-serif;
+}
 
-    .container {
-    background: #23424a;
-    color: white;
+.container {
+background: #23424a;
+color: white;
 
-    width: 80%;
-    margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 
-    padding: 2em;
-    height: 300px;
-    }
-    ```
+padding: 2em;
+height: 300px;
+}
+```
 
 # SOLUTION
     ```css
