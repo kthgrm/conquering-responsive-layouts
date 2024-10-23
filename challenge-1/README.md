@@ -1,16 +1,16 @@
 # INSTRUCTION
-    1) Limit the total width of
+    1. Limit the total width of
         the .intro-content to about half
         of its parent
 
-    2) Stop the text from overflowing
+    2. Stop the text from overflowing
         out the bottom at small screen
         widths
 
     You may modify the HTML if needed
 
 # CODE TO FIX
-    ```css
+```css
     * {
     box-sizing: border-box;
     }
@@ -30,10 +30,10 @@
     padding: 2em;
     height: 300px;
     }
-    ```
+ ```
 
 # SOLUTION
-    ```css
+ ```css
     * {
     box-sizing: border-box;
     }
@@ -56,4 +56,4 @@
     .intro-content{
         width: 50%;
     }
-    ```
+ ```
